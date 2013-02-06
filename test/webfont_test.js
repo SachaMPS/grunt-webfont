@@ -31,7 +31,7 @@ exports.webfont = {
 		// Every SVG file should have corresponding entry in CSS file
 		svgs.forEach(function(file) {
 			var id = path.basename(file, '.svg'),
-				found = css.match('\\.icon_' + id + ':before');
+				found = css.match('\\.icon-' + id + ':before');
 			test.ok(!!found, 'Icon ' + id + ' shound be in CSS file.');
 		});
 

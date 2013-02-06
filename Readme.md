@@ -79,7 +79,7 @@ Font files types to generate.
 
 #### [syntax] `string` (default: `'bem'`)
 
-Icon classes syntax. `bem` for double class names: `icon icon_awesome` or `bootstrap` for single class names: `icon-awesome`.
+Icon classes syntax. `bem` for double class names: `icon icon-awesome` or `bootstrap` for single class names: `icon-awesome`.
 
 #### [stylesheet] `string` (default: `'css'`)
 

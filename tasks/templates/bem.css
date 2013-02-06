@@ -19,4 +19,4 @@
 	}
 <% } %>
 <% if (iconsStyles) { %>/* Icons */<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { %>
-.icon_<%= glyphs[glyphIdx] %>:before { content:"\<%= (61696+glyphIdx).toString(16) %>"; }<% } %><% } %>
+.icon-<%= glyphs[glyphIdx] %>:before { content:"\<%= (61696+glyphIdx).toString(16) %>"; }<% } %><% } %>
