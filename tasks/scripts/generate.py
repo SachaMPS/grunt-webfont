@@ -83,7 +83,7 @@ if 'woff' in args.types:
 
 # EOT
 if 'eot' in args.types:
-	subprocess.call('mkeot ' + fontfile + '.ttf > ' + fontfile + '.eot', shell=True)
+	subprocess.call('ttf2eot ' + fontfile + '.ttf > ' + fontfile + '.eot', shell=True)
 
 # Hint the TTF file or delete it if not needed
 if 'ttf' in args.types:
